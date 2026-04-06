@@ -17,4 +17,4 @@ public class AppTest {
         String result = app.calculateStatus(60, 100);
         assertTrue(result.contains("WARNING"));
     }
-}mvn clean test
+}
